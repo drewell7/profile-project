@@ -1,28 +1,29 @@
 body {
     font-family: "Open Sans", sans-serif;
+    background-image: linear-gradient(#f6aa1c, #ccc5b9, #eb5e28);
 }
 
 h1, h2, h3 {
-    font-family: "Lobster", cursive;
+    font-family: "";
 }
 
 h2 {
-    color: #3046C5;
+    color: black;
 }
 
 header h2 {
-    color: #CEC8FF;
+    color: white;
 }
 
 .site-footer {
-    background-image: linear-gradient(#CEC8FF, white);
+    background-color: #252422;
     padding: 20px 0;
+    color: white;
 }
 
-.jumbotron {
-    margin: 0;
-    padding: 30px;
-    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+header {
+    
+    background-image: url("img/studio2.jpg");
     color: white;
 }
 
@@ -33,7 +34,7 @@ header h2 {
 }
 
 .navbar {
-    background-color: #901CAD;
+    background-color: grey;
 }
 
 a, a:hover {
@@ -46,7 +47,7 @@ a, a:hover {
 }
 
 .carousel {
-    border: solid #5637DD;
+    border: solid black;
 }
 
 #carouselButton {
@@ -54,4 +55,9 @@ a, a:hover {
     right: 0;
     bottom: 0;
     z-index: 100;
+}
+
+.card {
+    padding: 10px;
+    background:rgba(0, 0, 0, 0.1);
 }
