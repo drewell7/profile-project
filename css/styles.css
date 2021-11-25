@@ -1,10 +1,10 @@
 body {
-    font-family: "Open Sans", sans-serif;
-    background-color: #ccc5b9;
+    font-family: "Helvetica Neue", Arial;
+    background-color:#fffcf2;
 }
 
 h1, h2, h3 {
-    font-family: "";
+    font-family: "arial";
 }
 
 h2 {
@@ -34,7 +34,7 @@ header {
 }
 
 .navbar {
-    background-color: #eb5e28;
+    background-color: #252422;
     border: solid black;
 }
 
@@ -62,3 +62,4 @@ a, a:hover {
     padding: 10px;
     background:rgba(0, 0, 0, 0.3);
 }
+
