@@ -1,6 +1,7 @@
 body {
     font-family: "Helvetica Neue", Arial;
-    background-color:#fffcf2;
+    background-image: linear-gradient(black, #fffcf2, #fffcf2, #fffcf2);
+    padding-top: 1px;
 }
 
 h1, h2, h3 {
@@ -65,5 +66,9 @@ a, a:hover {
 
 ul {
     list-style: none;
+  }
+
+  #checkbg {
+      background-color: white;
   }
 
