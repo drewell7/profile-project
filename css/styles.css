@@ -1,12 +1,10 @@
 body {
-    font-family: "Helvetica Neue", Arial;
+    font-family: 'Cairo', sans-serif;
     background-image: linear-gradient(black, #fffcf2, #fffcf2, #fffcf2);
     padding-top: 1px;
 }
 
-h1, h2, h3 {
-    font-family: "arial";
-}
+
 
 h2 {
     color: black;
@@ -35,7 +33,7 @@ header {
 }
 
 .navbar {
-    background-image: linear-gradient(grey, black);
+    background-image: linear-gradient(#fffcf2, black, black, black, #fffcf2);
     border: solid black;
 }
 
@@ -50,8 +48,14 @@ a, a:hover {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+.media-body {
+    border: solid black;
+    background-color: #fffcf2;
+}
+
 #homeCarousel {
     border: solid black;
+    width: 700px;
 }
 
 
