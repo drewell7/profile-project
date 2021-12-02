@@ -63,18 +63,10 @@
 
     <div class="container container-fluid">
         <div class="row">
-          <div class="col-sm-6">
+          <div class="col col-sm-6">
               <h2 class="p-4"><strong>Korg monologue Monophonic Analog Synthesizer Silver</strong></h2>
             <p>The monologue by Korg is a programmable analog monophonic synthesizer that shares the sleek layout, knob-per-function workflow and high-quality construction of the best-selling minilogue. monologue is a new synth for all types of musicians; rock keyboard players appreciate its sine, saw and square wave leads and EDM producers will find its bass patches attractive for recording and shows.</p>
             
-            
-            
-            
-            
-            
-        
-            <div class="row row-content">
-              <div class="col">
                   <div class="accordion" id="accordion">
                       
                       <div class="card">
@@ -85,30 +77,35 @@
                                         A Fully Programmable Analog Synth
                                       </a>
                                 </h4>
-                          </div>
-                        </button>
+                          
                               <div class="collapse show" id="bootstrap" data-parent="#accordion">
                                   <div class="card-body">
                                       <p class="d-none d-sm-block">monologue gives you knob-per-function programmability, so you can create everything from crushing basses to crisp leads and complex rhythmic soundscapes quickly and easily. Even better, monologue has 100 program locations (80 preset + 20 user), a first for an analog keyboard in this price range. Each location can also retain its own 16-step sequence, including motion sequence automation.</p>
                                   </div>
                               </div>
+                            </div>
+                          </button>
                       </div>
                       
                       <div class="card">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                           <div role="tab" class="card-header">
                               <h4>
                                   <a class="collapsed" data-toggle="collapse" data-target="#git">
                                     A New Voice Above the Crowd
                                   </a>
                               </h4>
+                            
                               <div class="collapse" id="git" data-parent="#accordion">
                                   <div class="card-body">
                                       <p class="d-none d-sm-block">monologue’s engine starts with the same ground-up synthesis design that made the Korg minilogue famous, and adds features focused on amazing monophonic sounds. A new 2-pole VCF provides added bite, and a new analog Drive circuit delivers further punch and richness. The LFO has expanded control capabilities as well; with higher rates for deeper modulation possibilities.</p>
                                   </div>
                               </div>
-                          </div>
+                            </div>
+                          </button>
                       </div>
                       <div class="card">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                           <div role="tab" class="card-header">
                               <h4>
                                   <a class="collapsed" data-toggle="collapse" data-target="#mongo">
@@ -120,24 +117,32 @@
                                       <p class="d-none d-sm-block">monologue offers a powerful 16-step sequencer with a dedicated button per step for added ease of editing. It features motion sequencing with editing and the ability to “lock” parameters with individual steps. The sequencer also offers on-the-fly transposition via key triggering. All of these powerful new features can be used together to create complex, musical, and deeply dialed-in patterns.</p>
                                   </div>
                               </div>
+                              </div>
+                              </button>
                           </div>
                       </div>
-                  </div>
-              </div>
-          </div>
-          <p>In addition to 5-pin In/Out and USB MIDI, monologue includes Audio Sync connectivity which allows it to play in time and integrate seamlessly with Korg volcas, electribes, minilogue and SQ-1. Use the monologue with your DAW as both a USB MIDI controller or a versatile analog voice. Send clock over USB and use Audio Sync to chain monologue’s clock to other Audio Sync-equipped products.</p>
+                  
+              <p class="my-3">In addition to 5-pin In/Out and USB MIDI, monologue includes Audio Sync connectivity which allows it to play in time and integrate seamlessly with Korg volcas, electribes, minilogue and SQ-1. Use the monologue with your DAW as both a USB MIDI controller or a versatile analog voice. Send clock over USB and use Audio Sync to chain monologue’s clock to other Audio Sync-equipped products.</p>
 
-        </div>
+          </div>
+
+        
             
-          <div class="col-sm-6">
+          <div class="col col-sm-6">
             <div class="card mb-3">
-                <img src="img/korgmono.webp" class="card-img-top" alt="...">
+              
+                
+                <a role="button" class="btn" type="button" id="prodmodButton"><img src="img/korgmono.webp" class="card-img-top" alt="..."></a>
+
+                
+
+                
                 <div class="card-body">
                   <h5 class="card-title">Features</h5>
                     <ul>
-                        <li><p class="fa fa-circle">    Fully programmable, with 100 program memories</p></li>
-                        <li><p class="fa fa-circle">    Microtuning - freely create scales and alternate tonalities</p></li>
-                        <li><p class="fa fa-circle">    16-step sequencer with extensive motion sequence technology</p></li>
+                        <li><p class="fa fa-check-square">    Fully programmable, with 100 program memories</p></li>
+                        <li><p class="fa fa-check-square">    Microtuning - freely create scales and alternate tonalities</p></li>
+                        <li><p class="fa fa-check-square">    16-step sequencer with extensive motion sequence technology</p></li>
                     </ul>
                     <div>
                     <button type="button" class="btn btn-light btn-lg" disabled>$123.00</button>
@@ -148,12 +153,74 @@
                 </div>
           </div>
         </div>
+        </div>
       </div>
-      </div>
+      
       
 
 
-
+      <div class="modal fade" id="prodModal" tabindex="-1" aria-labelledby="prodModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title" id="prodModalLabel">Korg monologue</h2>
+              
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              
+                    <div class="">
+                        <div id="prodCarousel" class="carousel carousel-dark slide" data-ride="carousel">
+                          <div class="carousel-caption">
+                            <ol class="carousel-indicators">
+                                <li data-target="#prodCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#prodCarousel" data-slide-to="1"></li>
+                                <li data-target="#prodCarousel" data-slide-to="2"></li>
+                                <li data-target="#prodCarousel" data-slide-to="3"></li>
+                                <li data-target="#prodCarousel" data-slide-to="4"></li>                       
+                            </ol>
+                          </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-interval="">
+                                    <img class="d-block w-100" src="img/korgmono.webp" alt="" />
+                                    
+                                </div>
+                                <div class="carousel-item" data-interval="">
+                                    <img class="d-block w-100" src="img/korgmono2.webp" alt="" />
+                                    
+                                </div>
+                                <div class="carousel-item" data-interval="">
+                                    <img class="d-block w-100" src="img/korgmono3.webp" alt="" />
+                                    
+                                </div>
+                                <div class="carousel-item" data-interval="">
+                                  <img class="d-block w-100" src="img/korgmono4.webp" alt="" />
+                                  
+                              </div>
+                              <div class="carousel-item" data-interval="">
+                                <img class="d-block w-100" src="img/korgmono5.webp" alt="" />
+                                
+                            </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#prodCarousel" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#prodCarousel" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                
+            </div>
+            <div class="modal-footer">
+              
+              <button class="btn btn-secondary" type="submit" data-dismiss="modal">Cancel</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
 

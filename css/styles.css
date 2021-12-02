@@ -35,7 +35,7 @@ header {
 }
 
 .navbar {
-    background-color: #252422;
+    background-image: linear-gradient(grey, black);
     border: solid black;
 }
 
@@ -50,9 +50,11 @@ a, a:hover {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.carousel {
+#homeCarousel {
     border: solid black;
 }
+
+
 
 #carouselButton {
     position: absolute;
@@ -61,7 +63,7 @@ a, a:hover {
     z-index: 100;
 }
 
-#accordion {
+.accordion {
     background-color: white;
 }
 
@@ -74,9 +76,11 @@ ul {
     list-style: none;
   }
 
-  #checkbg {
-      background-color: white;
+#checkbg {
+    background-color: white;
   }
+
+  
 
   
 
